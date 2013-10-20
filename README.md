@@ -7,7 +7,7 @@ Algoritma1.Odev
 #include <conio.h>
 #include <string.h>
 int main()
-{/*Sifreleme Kismi*/
+{/*Sifreleme Kismı*/
 	int sifre1,sifre=1234;
 	int x, sonuc;
 	
