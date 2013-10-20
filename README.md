@@ -7,23 +7,23 @@ Algoritma1.Odev
 #include <conio.h>
 #include <string.h>
 int main()
-{
+{/*Sifreleme Kismi*/
 	int sifre1,sifre=1234;
 	int x, sonuc;
 	
 
-		printf("Kullanici Sifre:");
+		printf("Kullanici Sifren:");
 		scanf("%d",&sifre1);
 		if(sifre==sifre1){
 			printf("Sifre Dogru\n");
-
+		/*Menu Kismi*/
 		int secim , Sonuc , x=500 , y , z , a ,b=500,c=500,d=500 , sonuc, sonuc1, sonuc2,sonuc3;
 			printf("1-Hesap Durumu\n2-Para Cekme\n3-Para Yatirma\n4-Para Gonderme\n\n");
 			scanf("%d",&secim);
 
 
 			switch (secim)
-			{/**/
+			{
 
 				case 1:
 					sonuc=x;
